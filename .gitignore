@@ -1,0 +1,21 @@
+# secrets
+.env
+*.env
+.env.*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# built vector index (regeneratable via `python ingest.py`)
+data/index/
+
+# OS
+.DS_Store
+
+# generated data / trained model artifacts (regenerate via scripts)
+data/synthetic_applications.csv
+data/risk_model.json
+data/risk_model_meta.json

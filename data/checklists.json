@@ -1,0 +1,26 @@
+{
+  "us_h1b": {
+    "label": "US H1-B Visa",
+    "required_documents": [
+      {"id": "ds160", "name": "DS-160 Confirmation Page", "why": "Primary application record; embassy cannot schedule an interview without the barcode-confirmed DS-160."},
+      {"id": "i797", "name": "Form I-797 Approval Notice", "why": "Proof USCIS approved the petition; without it the consular officer cannot verify petition status."},
+      {"id": "passport", "name": "Valid Passport (6+ months validity)", "why": "Visa sticker requires a valid page margin period beyond intended stay."},
+      {"id": "photo", "name": "Passport Photo (2x2in, white bg)", "why": "Standard biometric requirement; non-compliant photos are rejected at the counter."},
+      {"id": "employment_letter", "name": "Employment Verification Letter", "why": "Confirms job title, salary, and duties needed to establish specialty occupation criteria."},
+      {"id": "education", "name": "Educational Credentials + Evaluation", "why": "Required to prove the specialty-occupation degree requirement under INA 214(i)(1)."}
+    ]
+  },
+  "schengen_tourist": {
+    "label": "Schengen (Germany) Tourist Visa",
+    "required_documents": [
+      {"id": "application_form", "name": "Signed Visa Application Form", "why": "Unsigned forms are rejected at submission."},
+      {"id": "passport", "name": "Passport (10yr issue, 3mo+ validity, 2 blank pages)", "why": "Standard Schengen passport validity and blank-page requirement."},
+      {"id": "photo", "name": "Biometric Photo (35x45mm)", "why": "Schengen biometric photo spec required for visa sticker printing."},
+      {"id": "insurance", "name": "Travel Insurance (EUR 30,000 min)", "why": "Mandatory Schengen-wide medical/repatriation coverage; insufficient coverage is an automatic rejection."},
+      {"id": "flight", "name": "Round-trip Flight Reservation", "why": "Demonstrates planned entry/exit dates within the Schengen area."},
+      {"id": "accommodation", "name": "Hotel Booking / Invitation Letter", "why": "Proof of accommodation for every night of stay is required."},
+      {"id": "funds", "name": "Proof of Financial Means (3mo bank statements)", "why": "Must show ~EUR 45/day to demonstrate ability to self-fund the trip."},
+      {"id": "employment_proof", "name": "Employment Proof + Leave Letter", "why": "Used to establish strong ties to home country and intent to return."}
+    ]
+  }
+}
